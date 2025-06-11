@@ -18,14 +18,14 @@ dmzport — это простая и компактная утилита на я
 · 📁 Поддерживает статическую сборку<br>
 <br>
 🚀 Установка:<br>
-```gcc -o dmzport dmzport.c -pthread```<br>
+```gcc -o dmzport dmzport.c -pthread```<br><br>
 ⚙️ Или статически (если на целевой машине старая glibc):<br>
-```gcc -static -o dmzport dmzport.c -pthread```<br>
+```gcc -static -o dmzport dmzport.c -pthread```<br><br>
 <br>
 📌 Использование<br>
-```./dmzport DMZ_IP:PORT TARGET_IP:PORT```<br>
+```./dmzport DMZ_IP:PORT TARGET_IP:PORT```<br><br>
 Пример:<br>
-```./dmzport 0.0.0.0:8000 192.168.122.50:80```<br>
+```./dmzport 0.0.0.0:8000 192.168.122.50:80```<br><br>
 Теперь, с вашего компьютера:<br>
 ```curl http://<DMZ_SERVER_IP>:8000```<br>
 Вы получите ответ от сервера 192.168.122.50:80, находящегося в локальной сети клиента.<br>
@@ -47,17 +47,17 @@ You forward: 172.22.0.4:8000 → 172.22.0.3:80.<br>
 · 🧱 Static build support<br>
 <br>
 🚀 Installation:<br>
-```gcc -o dmzport dmzport.c -pthread```<br>
+```gcc -o dmzport dmzport.c -pthread```<br><br>
 Or static (for old glibc environments):<br>
-```gcc -static -o dmzport dmzport.c -pthread```<br>
+```gcc -static -o dmzport dmzport.c -pthread```<br><br>
 <br>
 📌 Usage<br>
-```./dmzport DMZ_IP:PORT TARGET_IP:PORT```<br>
+```./dmzport DMZ_IP:PORT TARGET_IP:PORT```<br><br>
 Example:<br>
-```./dmzport 0.0.0.0:8000 192.168.122.50:80```<br>
+```./dmzport 0.0.0.0:8000 192.168.122.50:80```<br><br>
 Then on your internet machine:<br>
 ```curl http://<DMZ_SERVER_IP>:8000```<br>
 You will receive the response from 192.168.122.50:80 via DMZ relay.<br>
-<br>
+<br><br>
 ✅ License<br>
 MIT License. Free to use, modify, and distribute.
