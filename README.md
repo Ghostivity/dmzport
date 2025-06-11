@@ -101,7 +101,6 @@ No warranty. Use responsibly.
 
 ### 🤝 Author
 
-Developed by **Ghostivity** —  
-🔥 Combining deep network insight and stealth simplicity.
+Developed by **Ghostivity**
 
 📬 https://github.com/Ghostivity
